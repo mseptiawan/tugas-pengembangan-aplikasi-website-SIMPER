@@ -1,0 +1,16 @@
+membuat 5 model, migration dan controller untuk siswa, buku, rak,users, kelas
+
+menyiapkan dua route yang mengembalikan view home dan login
+
+membuat view layouts.master kode yang menampung bagian header serta footer
+
+membaut child dari view diatas yakni home serta login
+
+sampai pada membuat eloquent relasi pada class dan student
+membuat migration menambahkan kolom shelfs_id sebagai foreign key
+
+membuta eloquent untuk tabel shelf dan book dan kawan kawannya
+
+mmbuat relasi one to one pada siswa dan buku
+
+
