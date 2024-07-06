@@ -1,64 +1,37 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+simper anonim dari sistem informasi manajemen perpustakan, suatu project aplikasi mata kuliah rekayasa perangkat lunak, yang dikembangkan dengan teknologi bahasa pemrograman javascript,serta  bahasa php dengan framework laravel . aplikasi ini dikembangkan dengan hasil analisa pengembang terkait permasalahan pada pihak organisasi, terdapat fitur yang mengelola data siswa, data buku serta peminjaman, juga terdapat fitur export pdf yang akan mengekspor seluruh data peminjamaan saat ini. 
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+situs simper:  https://simperonline.000webhostapp.com/
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+berikut tahapan untuk membuka project simper serta menjalankannya pada jaringan lokal
+1. pastikan komputer anda telah diinstall composer
+2. masuk ke folder dan buka project dengan simper
+3. jalankan perintah  'composer install' terlebih dahulu pada terminal
+4. jalankan perintah 'php artisan migrate'
+5. jalankan perintah 'php artisan db:seed'
+6. jalankan perintah 'php artisan serve'
+7. akun admin:
+    1. email: mseptiawan017@gmail.com	password: wawan
+	2. email: aditjansa@gmail.com 		password: adit
+	
+ 
+9. akun pengguna biasa: 
+	a. email: userbiasa@gmail	password: userbiasa
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+	
+	
+silahkan buka project nya, selamat mencoba
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. halaman depan
+![depan](https://github.com/mseptiawan/laravel9-simper/assets/96011337/9957af12-4a73-460a-920b-1ab36a0cf9e7)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. halaman home
+![home](https://github.com/mseptiawan/laravel9-simper/assets/96011337/45e4dd9e-83fd-46c2-82d4-7a224828bbaf)
 
-## Laravel Sponsors
+3. halaman informasi buku
+![buku](https://github.com/mseptiawan/laravel9-simper/assets/96011337/a64cf121-b1d9-4960-8ec3-0a8b3d98176f)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. halaman peminjaman
+![peminjaman](https://github.com/mseptiawan/laravel9-simper/assets/96011337/40328444-2bc3-4f5d-b32d-9363583d6899)
